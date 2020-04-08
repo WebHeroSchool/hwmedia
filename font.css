@@ -1,0 +1,26 @@
+
+ .title {
+  color: orange; 
+  
+}
+.article {
+  color: green;
+}
+
+@media (min-width: 320px) {
+  .title {
+    font-size: 16px; 
+    }
+     .article {
+     font-size: 11px;
+     }
+  }
+
+@media(min-width: 768px) {
+   .title {
+    font-size: 32px; 
+    }
+     .article {
+     font-size: 22px;
+     }
+}
